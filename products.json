@@ -1,0 +1,82 @@
+{
+    "request": [
+        {
+            "id": 1,
+            "titulo": "Puerta Inteligente1",
+            "imagen": "https://www.sonority.one/domoticDoor.png",
+            "descripcion": "Puerta inteligente con Wifi y NFC.",
+            "color": "CardColor",
+            "precio": 500,
+            "imagen1": "url_de_imagen_1",
+            "imagen2": "url_de_imagen_2",
+            "imagen3": "url_de_imagen_3",
+            "video": "url_de_video",
+            "mainCard": true
+        },
+        {
+            "id": 2,
+            "titulo": "Puerta Inteligente2",
+            "imagen": "https://www.sonority.one/domoticDoor.png",
+            "descripcion": "Puerta inteligente con Wifi y NFC.",
+            "color": "CardColor",
+            "precio": 500,
+            "imagen1": "url_de_imagen_1",
+            "imagen2": "url_de_imagen_2",
+            "imagen3": "url_de_imagen_3",
+            "video": "url_de_video",
+            "mainCard": true
+        },
+       {
+            "id": 3,
+            "titulo": "Puerta Inteligente3",
+            "imagen": "https://www.sonority.one/domoticDoor.png",
+            "descripcion": "Puerta inteligente con Wifi y NFC.",
+            "color": "CardColor",
+            "precio": 500,
+            "imagen1": "url_de_imagen_1",
+            "imagen2": "url_de_imagen_2",
+            "imagen3": "url_de_imagen_3",
+            "video": "url_de_video",
+            "mainCard": true
+        },
+        {
+            "id": 4,
+            "titulo": "Bombilla inteligente",
+            "imagen": "https://www.sonority.one/light.png",
+            "descripcion": "Bombilla con wifi que se enciende a distancia",
+            "color": "SubCardColor",
+            "precio": 500,
+            "imagen1": "url_de_imagen_1",
+            "imagen2": "url_de_imagen_2",
+            "imagen3": "url_de_imagen_3",
+            "video": "url_de_video",
+            "mainCard": false
+        },
+        {
+            "id": 5,
+            "titulo": "enchufe inteligente",
+            "imagen": "https://www.sonority.one/light.png",
+            "descripcion": "enchufe con wifi que se enciende a distancia",
+            "color": "SubCardColor",
+            "precio": 500,
+            "imagen1": "url_de_imagen_1",
+            "imagen2": "url_de_imagen_2",
+            "imagen3": "url_de_imagen_3",
+            "video": "url_de_video",
+            "mainCard": false
+        },
+        {
+            "id": 6,
+            "titulo": "enchufe inteligente2",
+            "imagen": "https://www.sonority.one/light.png",
+            "descripcion": "enchufe con wifi que se enciende a distancia",
+            "color": "SubCardColor",
+            "precio": 400,
+            "imagen1": "url_de_imagen_1",
+            "imagen2": "url_de_imagen_2",
+            "imagen3": "url_de_imagen_3",
+            "video": "url_de_video",
+            "mainCard": false
+        }
+    ]
+ }
