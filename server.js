@@ -2,7 +2,7 @@ const express = require('express');
 const stripe = require('stripe')('sk_test_51NugGgAuabes3wfVJAmDbD37OyIlUDGpkaC70fF62oK0Q171OLWIhCVV2rdcXH5Wdxl69kQg7589wt5oCzXoaSz000jHJwHdrG');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Middleware para parsear JSON
 app.use(express.json());
