@@ -14,6 +14,9 @@ app.use(express.json());
 
 app.post('/payment-sheet', async (req, res) => {
   const amount = req.body.amount || 1199; 
+  const address = req.body.address;
+  const email = req.body.email;
+
   console.log("Precio recibido:", amount);
   // Use an existing Customer ID if this is a returning customer.
   const customer = await stripe.customers.create();
@@ -25,6 +28,11 @@ app.post('/payment-sheet', async (req, res) => {
     amount: amount,
     currency: 'eur',
     customer: customer.id,
+    metadata: {
+        address: address,
+        email: email,
+        // ... puedes añadir más campos si lo necesitas
+    },
     // In the latest version of the API, specifying the `automatic_payment_methods` parameter is optional because Stripe enables its functionality by default.
     automatic_payment_methods: {
       enabled: true,
